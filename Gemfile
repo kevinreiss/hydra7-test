@@ -39,3 +39,10 @@ gem 'hydra'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+
+gem "devise"
+gem "devise-guests", "~> 0.3"
+group :development, :test do
+  gem "rspec-rails"
+  gem "jettywrapper"
+end
